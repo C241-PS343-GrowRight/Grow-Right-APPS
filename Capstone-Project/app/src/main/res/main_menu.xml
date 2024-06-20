@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/dark" >
+
+    <group android:menuCategory="container">
+        <item android:id="@+id/favorite" android:icon="@drawable/baseling"
+            android:title="@string/favorite"/>
+    </group>
+</menu>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_ss"
+    tools:context=".ui.homepage.HomePageActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="210dp"
+                android:background="@drawable/bc_circel" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/baseline_arrow_back_24"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/getTvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:text="Hi, "
+            android:fontFamily="@font/inter"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/inter"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnStuntingInformation"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:background="@drawable/btn_rounded"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_stunting_new" />
+
+            <ImageButton
+                android:id="@+id/btnNutrisi"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/btn_rounded"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_nutrional_needs" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnAnalyzeStunting"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:background="@drawable/btn_rounded"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_analyze_information" />
+
+            <ImageButton
+                android:id="@+id/btnProfile"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/btn_rounded"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_profile" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnHistory"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:background="@drawable/btn_rounded"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_history" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

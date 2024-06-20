@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Grow-Right</string>
+
+    //apps
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="if_you_not_have_the_account">If you not have the account</string>
+    <string name="or_signup_with_google">--or sign up with google--</string>
+    <string name="HI_Username">Hi, %1$s!</string>
+    <string name="Analyze">Analyze</string>
+    <string name="result">Result</string>
+    <string name="menu">Menu</string>
+    <string name="input_data">Enter Personal Data</string>
+    <string name="confirm_validation">Confirm Again</string>
+    <string name="register_failed">Register Failed</string>
+    <string name="must_filled">Must be filled</string>
+    <string name="log_out_success">Log Out Success</string>
+    <string name="log_out_failed">Log Out Success</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="nameProfile"> Name</string>
+    <string name="emailProfile">Email</string>
+    <string name="information">Information</string>
+    <string name="next">Next</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="invalid_gender">Invalid Gender</string>
+
+
+    //result
+    <string name="name"> Name   :</string>
+    <string name="email">Email  :</string>
+    <string name="gender"> Gender : </string>
+    <string name="height"> Height (Cm) </string>
+    <string name="weight"> Weight (Kg) </string>
+    <string name="age"> Age (Month) </string>
+    <string name="description"> Description  </string>
+    <string name="save"> Save  </string>
+    <string name="notStunting"><b>Not Stunting</b></string>
+    <string name="stunting"><b>Stunting</b></string>
+    <string name="resultH"><b>Weight/Age</b></string>
+    <string name="resultW"><b>Height/Age</b></string>
+    <string name="resultA"><b>Weight/Height</b></string>
+    <string name="back"><b>Back</b></string>
+
+    //History
+    <string name="history"> History Analyze</string>
+
+
+</resources>
